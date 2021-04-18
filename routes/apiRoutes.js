@@ -31,37 +31,4 @@ app.post("/api/notes", function (req, res) {
     });
   });
     
-    // let isTableReserved = false;
-    // tables
-    //   .getAll()
-    //   .then((tableData) => {
-    //     // check if table maximum has been reached
-    //     isTableReserved = tableData.length < 5;
-    //     if (isTableReserved) {
-    //       // add to tables and return promise
-    //       return tables.push(req.body);
-    //     }
-    //     // add to waiting list and return promise
-    //     return waitingList.push(req.body);
-    //   })
-    //   .then(() => {
-    //     res.json(isTableReserved);
-    //   })
-    //   .catch((err) => {
-    //     console.log(err);
-    //     return res.status(500).end();
-    //   });
-//   });
-
-  // This code isn't part of the assignment. This route was added to easily
-  // clear out all the table data to facilitate demonstration. Don"t worry about
-  // it!
-//   app.post('/api/clear', (req, res) => {
-//     Promise.all([tables.clear(), waitingList.clear()])
-//       .then(() => res.json({ ok: true }))
-//       .catch((error) => {
-//         console.log(error);
-//         res.status(500).end();
-//       });
-//   });
 };
