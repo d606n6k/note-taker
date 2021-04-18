@@ -1,4 +1,4 @@
-# note-taker
+# The Note Taker App!
 ![Note Taker Screenshot Image](./public/assets/images/screenshot.png)
 
 ## Description
